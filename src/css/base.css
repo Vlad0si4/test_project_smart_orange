@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "TTHoves-Regular";
+  src: url(../assets/fonts/TTHoves-Regular.ttf);
+}
+
+body {
+  color: var(--color-black);
+  background-color: var(--color-white);
+
+  font-family: "TTHoves-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: calc(36 / 22);
+  outline: 1px solid red;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0px 136px;
+  /* padding: 120px; */
+}
